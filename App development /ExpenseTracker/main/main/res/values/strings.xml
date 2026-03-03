@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Expense Tracker</string>
+    <string name="total_expenses">Total: $%.2f</string>
+    <string name="hint_category">Select category</string>
+    <string name="category_grocery">Grocery</string>
+    <string name="category_transport">Transport</string>
+    <string name="category_dining">Dining</string>
+    <string name="category_entertainment">Entertainment</string>
+    <string name="category_other">Other</string>
+    <string name="title_expense_detail">Expense Details</string>
+    <string name="total_amount">Total: $%.2f</string>
+    <string name="action_filter">Filter</string>
+    <string name="filter_day">Today</string>
+    <string name="filter_week">This Week</string>
+    <string name="filter_month">This Month</string>
+    <string name="filter_all">All Expenses</string>
+    <string name="select_date">Select Date</string>
+</resources>

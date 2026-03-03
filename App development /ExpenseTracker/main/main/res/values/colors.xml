@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Chart colors -->
+    <array name="chart_colors">
+        <item>#FF512DA8</item>
+        <item>#FF303F9F</item>
+        <item>#FF1976D2</item>
+        <item>#FF0288D1</item>
+        <item>#FF0097A7</item>
+        <item>#FF00796B</item>
+        <item>#FF388E3C</item>
+        <item>#FF689F38</item>
+        <item>#FFAFB42B</item>
+        <item>#FFFBC02D</item>
+    </array>
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.appdevuserregistrationmodule">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!-- Personal Background Activity (Entry Point) -->
+        <activity
+            android:name=".PersonalBackgroundActivity"
+            android:exported="true"
+            android:label="Personal Information"
+            android:windowSoftInputMode="adjustPan">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Educational Background Activity -->
+        <activity
+            android:name=".EducationalBackgroundActivity"
+            android:exported="false"
+            android:label="Educational Background"
+            android:parentActivityName=".PersonalBackgroundActivity"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".PersonalBackgroundActivity" />
+        </activity>
+
+        <!-- Criminal Background Activity -->
+        <activity
+            android:name=".CriminalBackgroundActivity"
+            android:exported="false"
+            android:label="Criminal Background"
+            android:parentActivityName=".EducationalBackgroundActivity"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".EducationalBackgroundActivity" />
+        </activity>
+
+        <!-- Report Activity (Final Summary) -->
+        <activity
+            android:name=".ReportActivity"
+            android:exported="false"
+            android:label="Registration Summary"
+            android:parentActivityName=".CriminalBackgroundActivity"
+            android:windowSoftInputMode="adjustPan">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".CriminalBackgroundActivity" />
+        </activity>
+
+    </application>
+
+</manifest>

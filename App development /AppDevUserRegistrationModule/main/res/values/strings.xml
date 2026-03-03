@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">App Dev User Registration Module</string>
+    <string-array name="relationship_options">
+        <item>Mother</item>
+        <item>Father</item>
+        <item>Brother</item>
+        <item>Sister</item>
+        <item>Wife</item>
+        <item>Husband</item>
+        <item>Others</item>
+    </string-array>
+</resources>
