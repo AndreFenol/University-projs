@@ -1,0 +1,29 @@
+{
+  "categories": [
+    {
+      "id": 0,
+      "name": "Notebook"
+    },
+    {
+      "id": 1,
+      "name": "Pad paper"
+    },
+    {
+      "id": 2,
+      "name": "Pen"
+    },
+    {
+      "id": 3,
+      "name": "Tape"
+    },
+    {
+      "id": 4,
+      "name": "Textbook"
+    }
+  ],
+  "info": {
+    "year": 2025,
+    "version": "1.0",
+    "contributor": "Label Studio"
+  }
+}
