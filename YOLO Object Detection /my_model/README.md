@@ -1,0 +1,1 @@
+Trained a YOLOv8-based DetectionModel using the Ultralytics framework (v8.3.146) , achieving high-efficiency inference with FP16 precision.
